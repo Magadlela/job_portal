@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="text-gray-500">
+
+    <div class="">
+        <!--Content wrapper-->
+        <div class="md:col-span-1 md:justify-left">
+            <nav class="flex flex-wrap items-center p-3 bg-white border-b-2">
+                <a href="index.html" class="inline-flex items-center p-2 pb-4 mr-4">
+                    <span class="font-bold text-l hover:text-gray-400">Job Portal</span>
+                </a>
+                <button class="inline-flex p-3 hover:bg-gray-400 rounded lg:hidden ml-auto hover:text-white outline-none nav-toggler" data-target="#navigation">
+                    <div class="px-4 curser-pointer md:hidden" id="burger">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-5" viewBox="0 0 20 20" fill="currentColor">
+                          <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
+                        </svg>
+                  </div>
+                  </button>
+                <div class="hidden w-full top-navbar lg:inline-flex lg:flex-grow lg:w-auto" id="menu">
+                    <div class="flex flex-col items-start w-full lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto lg:items-center lg:h-auto">
+                        <a href="index.html" class="items-center justify-center w-full px-3 py-2 text-gray-400 rounded lg:inline-flex lg:w-auto hover:bg-gray-400 hover:text-white">
+                            <span>Home</span>
+                        </a>
+                        <a href="about.html" class="items-center justify-center w-full px-3 py-2 text-gray-400 rounded lg:inline-flex lg:w-auto hover:bg-gray-400 hover:text-white">
+                            <span>About</span>
+                        </a>
+                        <a href="services.html" class="items-center justify-center w-full px-3 py-2 text-gray-400 rounded lg:inline-flex lg:w-auto hover:bg-gray-400 hover:text-white">
+                            <span>Services</span>
+                        </a>
+                        <a href="jobseeker.html" class="items-center justify-center w-full px-3 py-2 text-gray-400 border-b-2 border-gray-400 rounded lg:inline-flex lg:w-auto hover:bg-gray-400 hover:text-white">
+                            <span>Vacancies</span>
+                        </a>
+                        <a href="index.html" class="items-center justify-center w-full px-3 py-2 text-gray-400 rounded lg:inline-flex lg:w-auto hover:bg-gray-400 hover:text-white">
+                            <span>Log out</span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+        <!--end nav bar-->
+
+        <main class="px-16 py-6 bg-gray-100 grid md:grid-cols-3">
+
+            <div class="col-span-1">
+
+            </div>
+            <!--upload details-->
+            <div class="z-10 w-full p-5 bg-white sm:max-w-lg md:col-span-1 rounded-xl">
+                <div class="text-center">
+                    <h2 class="mt-5 text-3xl font-bold text-gray-900">
+                        Apply
+                    </h2>
+                    <p class="mt-2 text-sm text-gray-400">Fill in form to apply</p>
+                </div>
+                <form class="mt-8 space-y-3 col-span-1" action="#" method="POST">
+
+                    <div class="grid grid-cols-1 space-y-2">
+                        <label class="text-sm font-bold tracking-wide text-gray-500">Surname</label>
+                        <input class="p-2 text-base border border-gray-300 rounded-lg focus:outline-none focus:border-indigo-500" type="" placeholder="Surmane">
+                    </div>
+                    <div class="grid grid-cols-1 space-y-2">
+                        <label class="text-sm font-bold tracking-wide text-gray-500">Other Names     </label>
+                        <input class="p-2 text-base border border-gray-300 rounded-lg focus:outline-none focus:border-indigo-500" type="" placeholder="Other Names">
+                    </div>
+                    <div class="grid grid-cols-1 space-y-2">
+                        <label class="text-sm font-bold tracking-wide text-gray-500">Date Of Birth</label>
+                        <input class="p-2 text-base border border-gray-300 rounded-lg focus:outline-none focus:border-indigo-500" type="date" placeholder="DD/MM/YYYY">
+                    </div>
+                    <div class="grid grid-cols-1 space-y-2">
+                        <label class="text-sm font-bold tracking-wide text-gray-500">Gender</label>
+                        <input class="p-2 text-base border border-gray-300 rounded-lg focus:outline-none focus:border-indigo-500" type="text" placeholder="Male/female/Other">
+                    </div>
+                    <div class="grid grid-cols-1 space-y-2">
+                        <label class="text-sm font-bold tracking-wide text-gray-500">Mobile</label>
+                        <input class="p-2 text-base border border-gray-300 rounded-lg focus:outline-none focus:border-indigo-500" type="" placeholder="Mobile">
+                    </div>
+                    <div class="grid grid-cols-1 space-y-2">
+                        <label class="text-sm font-bold tracking-wide text-gray-500">Email</label>
+                        <input class="p-2 text-base border border-gray-300 rounded-lg focus:outline-none focus:border-indigo-500" type="" placeholder="mail@gmail.com">
+                    </div>
+                    <div class="grid grid-cols-1 space-y-2">
+                        <label class="text-sm font-bold tracking-wide text-gray-500">Attach Document</label>
+                        <div class="flex items-center justify-center w-full">
+                            <label class="flex flex-col w-full p-10 text-center border-4 border-dashed rounded-lg h-60 group">
+                                        <div class="flex flex-col items-center justify-center w-full h-full text-center ">
+                                            <!---<svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-blue-400 group-hover:text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
+                                            </svg>-->
+                                            <div class="flex flex-auto w-2/5 mx-auto -mt-10 max-h-48">
+                                            <img class="object-center has-mask h-36" src="https://img.freepik.com/free-vector/image-upload-concept-landing-page_52683-27130.jpg?size=338&ext=jpg" alt="freepik image">
+                                            </div>
+                                            <p class="text-gray-500 pointer-none "><span class="text-sm">Drag and drop</span> files here <br /> or <a href="" id="" class="text-blue-600 hover:underline">select a file</a> from your computer</p>
+                                        </div>
+                                        <input type="file" class="hidden">
+                                    </label>
+                        </div>
+                    </div>
+                    <p class="text-sm text-gray-300">
+                        <span>File type: doc,pdf,types of images</span>
+                    </p>
+                    <div>
+                        <button type="submit" class="flex justify-center w-full p-4 my-5 font-semibold tracking-wide text-gray-100 transition duration-300 ease-in bg-blue-500 rounded-full shadow-lg cursor-pointer focus:outline-none focus:shadow-outline hover:bg-blue-600">
+                                Upload
+                            </button>
+                        <p class="font-light text-center text-md">Are you looking for more positions <a href="jobseeker.html" class="font-light text-indigo-600 text-md hover:text-blue-500/">  Available positions</a></p>
+                    </div>
+                </form>
+                <!--end of uploads-->
+            </div>
+
+        </main>
+
+        <footer class="relative pt-1 bg-white border-b-2 border-blue-700 footer">
+            <div class="container px-6 mx-auto">
+                <div class="flex flex-col items-center mt-16 border-t-2 border-gray-300">
+                    <div class="py-6 text-center sm:w-2/3">
+                        <p class="mb-2 text-sm font-bold">
+                            Job Portal © 2021 t & c apply
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div>
+            <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="text-gray-500">
+
+    <div class="">
+        <!--Content wrapper-->
+        <div class="">
+            <nav class="flex items-center bg-white p-3 flex-wrap border-b-2">
+                <a href="#" class="p-2 pb-4 mr-4 inline-flex items-center">
+                    <span class="text-l font-bold hover:text-gray-400"><h1>Job Portal</h1></span>
+                </a>
+                <button class="inline-flex p-3 hover:bg-gray-400 rounded lg:hidden ml-auto hover:text-white outline-none nav-toggler" data-target="#navigation">
+                    <div class="px-4 curser-pointer md:hidden" id="burger">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-5" viewBox="0 0 20 20" fill="currentColor">
+                          <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
+                        </svg>
+                  </div>
+                  </button>
+                <div class="hidden top-navbar w-full lg:inline-flex lg:flex-grow lg:w-auto" id="menu">
+                    <div class="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto">
+                        <a href="index.html" class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-400 hover:text-white border-b-2 border-gray-400">
+                            <span>Home</span>
+                        </a>
+                        <a href="about.html" class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-400 hover:text-white">
+                            <span>About</span>
+                        </a>
+                        <a href="services.html" class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-400 hover:text-white">
+                            <span>Services</span>
+                        </a>
+                        <a href="jobseeker.html" class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-400 hover:text-white ">
+                            <span>Vacancies</span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+        <!--end nav bar-->
+
+    </div>
+    <!--end nav bar-->
+    <main class="px-16 py-6 bg-gray-100 md:col-span-2 mcol-span-2 c-span-2">
+        <div class="flex justify-center text-gray-400 md:justify-end ">
+            <a href="login.html" class="rounded-full py-2 px-3 uppercase text-xs font-bold .cursor-pointer tracking-wider border-gray-400 md:border-2 hover:bg-gray-400 hover:text-white transition easy-out duration-500">Login</a>
+            <a href="register.html" class="rounded-full py-2 px-3 uppercase text-xs font-bold .cursor-pointer tracking-wider border-gray-400 md:border-2 ml-2 hover:bg-gray-400 hover:text-white transition easy-out duration-500">Sign Up</a>
+        </div>
+
+        <header>
+            <h2 class="text-3xl font-semibold text-gray-700">Job Vacancies</h2>
+            <h3 class="font-semibold ">Start Kick Your Application</h3>
+        </header>
+
+        <div>
+            <h4 class="pb-2 mt-12 font-bold border-b border-gray-200"> Ours Services</h4>
+            <div class="relative grid gap-10 mt-8 lg:grid-cols-3 gd">
+                <!--cards go here-->
+                <div class="card hover:shadow-lg">
+                    <a href="jobseeker.html">
+                        <img src="job2.jpeg" alt="job" class="object-cover w-full h-32 sm:h-48">
+                        <div>
+                            <span class="font-bold p-8">View List Of Available Vacancies</span>
+                            <br>
+                            <span class="block text-sm text-gray-500"></span>
+                        </div>
+                        <div class="absolute top-0 p-2 mt-2 ml-2 text-xs font-bold text-black uppercase  rounded-full;">
+                        </div>
+                    </a>
+                </div>
+                <div class="card hover:shadow-lg">
+                    <a href="apply.html">
+                        <img src="resume.jpg" alt="job" class="object-cover w-full h-32 sm:h-48">
+                        <div>
+                            <span class="font-bold p-8">Upload Resume</span>
+                            <br>
+                            <span class="block text-sm text-gray-500"></span>
+                        </div>
+                        <div class="absolute top-0 p-2 mt-2 ml-2 text-xs font-bold text-black uppercase  rounded-full;">
+
+                        </div>
+                    </a>
+                </div>
+                <div class="card hover:shadow-lg">
+                    <a href="blog.html">
+                        <img src="job1.jpeg" alt="job" class="w-full h-32 objeet-cover sm:h-48">
+                        <div>
+                            <span class="font-bold p-8">Career Advice</span>
+                            <br>
+                            <span class="block text-sm text-gray-500"></span>
+                            <div class="absolute top-0 p-2 mt-2 ml-2 text-xs font-bold text-black uppercase  rounded-full;">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+            <h4 class="grid grid-cols-3 gap-10 border-gray-200 mt-o pt-4"> Most popular</h4>
+            <div class="grid grid-cols-3 gap-10 mt-o">
+                <!--Cards go here-->
+                <div class="card hover:shadow-lg">
+                    <a href="jobseeker.html">
+                        <img src="engineering.jpg" alt="job" class="object-cover w-full h-32 sm:h-48">
+                        <div>
+                            <span class="font-bold p-8">Engineering</span>
+                            <br>
+                            <span class="block text-sm text-gray-500"></span>
+                        </div>
+                        <div class="absolute top-0 p-2 mt-2 ml-2 text-xs font-bold text-black uppercase  rounded-full;">
+                        </div>
+                    </a>
+                </div>
+                <div class="card hover:shadow-lg">
+                    <a href="jobseeker.html">
+                        <img src="it.jpg" alt="job" class="object-cover w-full h-32 sm:h-48">
+                        <div>
+                            <span class="font-bold p-8">IT</span>
+                            <br>
+                            <span class="block text-sm text-gray-500"></span>
+                        </div>
+                        <div class="absolute top-0 p-2 mt-2 ml-2 text-xs font-bold text-black uppercase  rounded-full;">
+
+                        </div>
+                    </a>
+                </div>
+                <div class="card hover:shadow-lg">
+                    <a href="jobseeker.html">
+                        <img src="sales.jpg" alt="job" class="w-full h-32 objeet-cover sm:h-48">
+                        <div>
+                            <span class="font-bold p-8">Sales</span>
+                            <br>
+                            <span class="block text-sm text-gray-500"></span>
+                            <div class="absolute top-0 p-2 mt-2 ml-2 text-xs font-bold text-black uppercase  rounded-full;">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div><br><hr></div>
+            <div class="flex justify-center">
+                <div class="text-gray-400 bg-gray-200 btn rounded-full py-2 px-3  text-xs font-bold  .cursor-pointer tracking-wider .cursor-pointer t hover:shadow-inner transfrom hover:scale-125 hover:bg-opacity-50 transition easy-out duration-300 hover:bg-gray-400 hover:text-white"><a href="#">LOAD MORE</a></div>
+            </div>
+        </div>
+    </main>
+
+    </div>
+    <footer class="relative pt-1 bg-white border-b-2 border-blue-700 footer">
+
+        <div class="container px-6 mx-auto">
+            <div class="flex flex-col items-center mt-16 border-t-2 border-gray-300">
+                <div class="py-6 text-center sm:w-2/3">
+                    <p class="mb-2 text-sm font-bold text-blue-700">
+                        © 2021 t & c apply
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

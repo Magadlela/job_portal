@@ -1,0 +1,140 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Vacancy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="text-gray-500">
+
+    <div class="">
+        <!--Content wrapper-->
+        <div class="md:col-span-1 md:justify-left">
+            <nav class="flex flex-wrap items-center p-3 bg-white border-b-2">
+                <a href="index.html" class="inline-flex items-center p-2 pb-4 mr-4">
+                    <span class="font-bold text-l hover:text-gray-400">Job Portal </span>
+                </a>
+                <button class="inline-flex p-3 hover:bg-gray-400 rounded lg:hidden ml-auto hover:text-white outline-none nav-toggler" data-target="#navigation">
+                    <div class="px-4 curser-pointer md:hidden" id="burger">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-5" viewBox="0 0 20 20" fill="currentColor">
+                          <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
+                        </svg>
+                  </div>
+                  </button>
+                <div class="hidden w-full top-navbar lg:inline-flex lg:flex-grow lg:w-auto" id="menu">
+                    <div class="flex flex-col items-start w-full lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto lg:items-center lg:h-auto">
+                        <a href="index.html" class="items-center justify-center w-full px-3 py-2 text-gray-400 rounded lg:inline-flex lg:w-auto hover:bg-gray-400 hover:text-white">
+                            <span>Home</span>
+                        </a>
+                        <a href="#" class="items-center justify-center w-full px-3 py-2 text-gray-400 rounded lg:inline-flex lg:w-auto hover:bg-gray-400 hover:text-white">
+                            <span>About</span>
+                        </a>
+                        <a href="#" class="items-center justify-center w-full px-3 py-2 text-gray-400 rounded lg:inline-flex lg:w-auto hover:bg-gray-400 border-b-2 border-gray-400 hover:text-white">
+                            <span>Services</span>
+                        </a>
+                        <a href="#" class="items-center justify-center w-full px-3 py-2 text-gray-400  rounded lg:inline-flex lg:w-auto hover:bg-gray-400 hover:text-white">
+                            <span>Vacancies</span>
+                        </a>
+                        <a href="register.html" class="items-center justify-center w-full px-3 py-2 text-gray-400 rounded lg:inline-flex lg:w-auto hover:bg-gray-400 hover:text-white">
+                            <span>Sign Up</span>
+                        </a>
+                        <a href="login.html" class="items-center justify-center w-full px-3 py-2 text-gray-400 rounded lg:inline-flex lg:w-auto hover:bg-gray-400 hover:text-white">
+                            <span>Log Out</span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+        <!--end nav bar-->
+
+        <main class="px-16 py-6 bg-gray-100 grid md:grid-cols-3">
+
+            <div class="col-span-1">
+
+            </div>
+            <!--upload details-->
+            <div class="z-10 w-full p-5 bg-white sm:max-w-lg md:col-span-1 rounded-xl">
+                <div class="text-center">
+                    <h2 class="mt-5 text-3xl font-bold text-gray-900">
+                        List Vacancy details
+                    </h2>
+                    <p class="mt-2 text-sm text-gray-400">Fill in details</p>
+                </div>
+                <form class="mt-8 space-y-3 col-span-1" action="#" method="POST">
+
+                    <div class="grid grid-cols-1 space-y-2">
+                        <label class="text-sm font-bold tracking-wide text-gray-500">Name of Organization</label>
+                        <input class="p-2 text-base border border-gray-300 rounded-lg focus:outline-none focus:border-indigo-500" type="text" placeholder="">
+                    </div>
+                    <div class="grid grid-cols-1 space-y-2">
+                        <label class="text-sm font-bold tracking-wide text-gray-500">Position     </label>
+                        <input class="p-2 text-base border border-gray-300 rounded-lg focus:outline-none focus:border-indigo-500" type="text" placeholder="">
+                    </div>
+                    <div class="grid grid-cols-1 space-y-2">
+                        <label class="text-sm font-bold tracking-wide text-gray-500">Job Description  </label>
+                        <input class="p-2 text-base border border-gray-300 rounded-lg focus:outline-none focus:border-indigo-500" type="text" placeholder="">
+                    </div>
+                    <div class="grid grid-cols-1 space-y-2">
+                        <label class="text-sm font-bold tracking-wide text-gray-500">Salary </label>
+                        <input class="p-2 text-base border border-gray-300 rounded-lg focus:outline-none focus:border-indigo-500" type="text" placeholder="">
+                    </div>
+                    <div class="grid grid-cols-1 space-y-2">
+                        <label class="text-sm font-bold tracking-wide text-gray-500">Location</label>
+                        <input class="p-2 text-base border border-gray-300 rounded-lg focus:outline-none focus:border-indigo-500" type="text" placeholder="">
+                    </div>
+                    <div class="grid grid-cols-1 space-y-2">
+                        <label class="text-sm font-bold tracking-wide text-gray-500">Experience</label>
+                        <input class="p-2 text-base border border-gray-300 rounded-lg focus:outline-none focus:border-indigo-500" type="text" placeholder="">
+                    </div>
+
+                    <button type="submit" class="flex justify-center w-full p-4 my-5 font-semibold tracking-wide text-gray-100 transition duration-300 ease-in bg-blue-500 rounded-full shadow-lg cursor-pointer focus:outline-none focus:shadow-outline hover:bg-blue-600">
+                                List Vacancy
+                            </button>
+
+            </div>
+            </form>
+            <!--end of uploads-->
+    </div>
+    </main>
+
+    <footer class="relative pt-1 bg-white border-b-2 border-blue-700 footer">
+        <div class="container px-6 mx-auto">
+            <div class="flex flex-col items-center mt-16 border-t-2 border-gray-300">
+                <div class="py-6 text-center sm:w-2/3">
+                    <p class="mb-2 text-sm font-bold">
+                        Job Portal © 2021 t & c apply
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div>
+        <script src="index.js"></script>
+</body>
+
+</html>
+</html>         <!--end of uploads-->
+            </div>
+
+        </main>
+
+        <footer class="relative pt-1 bg-white border-b-2 border-blue-700 footer">
+            <div class="container px-6 mx-auto">
+                <div class="flex flex-col items-center mt-16 border-t-2 border-gray-300">
+                    <div class="py-6 text-center sm:w-2/3">
+                        <p class="mb-2 text-sm font-bold">
+                            Job Portal © 2021 t & c apply
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div>
+            <script src="index.js"></script>
+</body>
+
+</html>
